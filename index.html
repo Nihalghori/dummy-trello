@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   
+
+    <link rel="stylesheet" href="style.css">
+   
+</head>
+<body>
+  <div id="cardContainer">
+    <h1 class="title">TRELLO CLONE</h1>
+    <div class="container1">
+      <h1 class="todo">TODO</h1>
+      <input type="text" class="taskInput" id="task" draggable="true">
+      <button class="one" onclick="addTask()">Add Task</button>
+  
+      <ul class="listContainer" id="list" ondrop="drop(event)" ondragover="allowDrop(event)">
+        <!-- Existing tasks or placeholders -->
+        <!-- </svg><i class="bi bi-trash3-fill"></i> -->
+      </ul>
+    </div>
+    <div class="container2">
+      <h1 class="Inprogress">IN PROGRESS</h1>
+      <input type="text" class="taskInput" id="task1" draggable="true">
+      <button class="two"onclick="addTask()">Add Task</button>
+  
+      <ul class="listContainer" id="list1" ondrop="drop(event)" ondragover="allowDrop(event)">
+        <!-- Existing tasks or placeholders -->
+      </ul>
+    </div>
+    <div class="container3">
+      <h1 class="completed">COMPLETED</h1>
+      <input type="text" class="taskInput" id="task2" draggable="true">
+      <button class="three" onclick="addTask()">Add Task</button>
+  
+      <ul class="listContainer" id="list2" ondrop="drop(event)" ondragover="allowDrop(event)">
+        <!-- Existing tasks or placeholders -->
+      </ul>
+    </div>
+  </div>
+  
+
+
+
+    <script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,323 @@
+*{
+  margin : 0px;
+  padding: 0%;
+  font-family: 'Popins', sans-serif;
+  box-sizing: border-box;
+}
+
+#cardContainer{
+  width: 100%;
+  min-height : 100vh;
+  background-image: url(blue_ash_white_yellow_3d_abstract_hd_abstract-2560x1440.jpg);
+  padding:10px ;
+}
+.listContainer{
+  width: 100%;
+  max-width: 540px;
+  background:#fff;
+  
+  padding:40px 30px 70px;
+  border-radius: 10px;
+}
+.taskInput{
+  width: 250px;
+  height: 50px;
+}
+#task2{
+  position: absolute;
+  left: 35%;
+  top: 25%;
+  width: 20%;
+  height: 10%;
+  color: #fff;
+  font-weight: bold;
+  font-size: 20px;
+  background-color: black;
+  box-shadow: 5px 5px 5px 5px rgba(255, 255, 255, 0.8);
+  border-radius: 40px;
+  font-weight: bold;
+  text-align: center;
+  opacity: 0.8;
+}
+#task1{
+  position: absolute;
+  left: 68%;
+  top: 25%;
+  width: 22%;
+  height: 10%;
+  color: #fff;
+  font-weight: bold;
+  text-align: center;
+  font-size: 20px;
+  background-color: black;
+  box-shadow: 5px 5px 5px 5px rgba(255, 255, 255, 0.8);
+  border-radius: 40px;
+  opacity: 0.8;
+  
+}
+#task{
+  position: absolute;
+  left: 2%;
+  top: 25%;
+  width: 22%;
+  height: 10%;
+  text-align: center;
+  color: #fff;
+  font-weight: bold;
+  font-size: 20px;
+  background-color: black;
+  box-shadow: 5px 5px 5px 5px rgba(255, 255, 255, 0.8);
+  border-radius: 40px;
+  opacity: 0.8;
+}
+#list1{
+  position: absolute;
+  left: 68%;
+  top: 36%;
+  width: 30%;
+  height: 60%;
+  font-size: 20px;
+  color: #fff;
+  background-color: black;
+  box-shadow: 5px 5px 5px 5px rgba(255, 255, 255, 0.8);
+  border-radius: 40px;
+  opacity: 0.8;
+  font-weight: bold;
+}
+#list2{
+  position: absolute;
+  left: 35%;
+  top: 36%;
+  width: 30%;
+  height: 60%;
+  background-color: black;
+  color: #fff;
+  box-shadow: 5px 5px 5px 5px rgba(255, 255, 255, 0.8);
+  border-radius: 40px;
+  opacity: 0.8;
+  font-weight: bold;
+}
+#list{
+  position: absolute;
+  left: 2%;
+  top: 36%;
+  width: 30%;
+  height: 60%;
+  color: #fff;
+  background-color: black;
+  box-shadow: 5px 5px 5px 5px rgba(255, 255, 255, 0.8);
+  border-radius: 40px;
+  align-items: center;
+  font-weight: bold;
+  opacity: 0.8;
+}
+.listContainer li {
+  border: 5px solid rgb(255, 252, 252);
+  border-radius: 20PX;
+  width: 350px;
+  padding-top: 10px;
+  padding-left: 10px;
+  height: 50px;
+  margin: 10px;
+  align-content: center;
+  
+}
+.deleteButton {
+  
+  border: none;
+  background-color: black;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  padding: 0;
+  font-size: 16px;
+  position: absolute;
+  left:320px;
+
+}
+
+.deleteButton:hover {
+  color: darkred;
+}
+.one{
+  width: 100px;
+ height: 60px;
+  position: absolute;
+  top: 25%;
+  left: 24%;
+  border-radius: 40px;
+  background-color: black;
+  color:white;
+ box-shadow:  5px 5px 5px 5px rgba(255, 255, 255, 0.8);
+  font-size: 20px;
+  font-weight: bold;
+  
+}
+.two{
+  width: 100px;
+ height: 60px;
+  position: absolute;
+  top: 25%;
+  left: 56%;
+  border-radius: 40px;
+  background-color: black;
+  color:white;
+ box-shadow:  5px 5px 5px 5px rgba(255, 255, 255, 0.8);
+  font-size: 20px;
+  font-weight: bold;
+}
+.three{
+  width: 100px;
+ height: 60px;
+  position: absolute;
+  top: 25%;
+  left: 90%;
+  border-radius: 40px;
+  background-color: black;
+  color:white;
+ box-shadow:  5px 5px 5px 5px rgba(255, 255, 255, 0.8);
+  font-size: 20px;
+  font-weight: bold;
+}
+.completed{
+  color: #fffefe;
+  text-shadow: 8px 8px 8px rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 18%;
+  left: 70%;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.Inprogress{
+  color: #fff9f9;
+  text-shadow: 8px 8px 8px rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 18%;
+  left: 40%;
+ text-decoration: capitalize;
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.todo{
+  color: #fffdfd;
+  text-shadow: 8px 8px 8px rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 18%;
+  left: 10%;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.title{
+  color: #fff9f9;
+  text-shadow: 8px 8px 8px rgba(0, 0, 0, 0.5);
+  position: absolute;
+  font-size: 90px;
+  top: 2%;
+  left: 30%;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+@media (max-width: 768px) {
+  .listContainer {
+    max-width: 100%;
+  }
+
+  .taskInput {
+    width: 50%;
+  }
+
+  #task2,
+  #task1,
+  #task {
+    position: static;
+    width: 50%;
+    height: 50px;
+    margin-top: 20px;
+  }
+
+  #list1,
+  #list2,
+  #list {
+    position: static;
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+  }
+
+  .one,
+  .two,
+  .three {
+    position: static;
+    width: 30%;
+    height: 50px;
+    margin-top: 20px;
+    margin-right: -30%;
+  }
+
+  .completed,
+  .Inprogress,
+  .todo,
+  .title {
+    position: static;
+    font-size: 60px;
+    text-align: center;
+    margin-top: 20px;
+    left: 0;
+  }
+}
+@media (max-width: 375px) {
+  .listContainer {
+    padding: 20px 15px 40px;
+  }
+
+  .taskInput {
+    width: 180px;
+  }
+
+  #task2,
+  #task1,
+  #task {
+    font-size: 16px;
+    width: 65%;
+    height: 30%;
+    left: 30%;
+    top: 20%;
+  }
+
+  #list1,
+  #list2,
+  #list {
+    width: 100%;
+    height: 55%;
+    font-size: 16px;
+    left: 30%;
+    top: 32%;
+  }
+
+  .listContainer li {
+    width: 250px;
+    height: 40px;
+    font-size: 14px;
+  }
+
+  .deleteButton {
+    left: 200px;
+  }
+
+  .one,
+  .two,
+  .three {
+    width: 80px;
+    height: 40px;
+    top: 20%;
+    font-size: 16px;
+  }
+
+  .completed,
+  .Inprogress,
+  .todo {
+    top: 15%;
+    font-size: 28px;
+  }
+
+  .title {
+    font-size: 60px;
+    top: 5%;
+    left: 20%;
+  }
+}
